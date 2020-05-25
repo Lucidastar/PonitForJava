@@ -13,7 +13,8 @@ public class ExecutorType {
 //        fixedThreadPoolDemo();
 //        cachedThreadPoolDemo();
 //        System.out.println(-1 << 29);
-        scheduledThreadPoolDemo();
+//        scheduledThreadPoolDemo();
+        newSingleThreadExecutorDemo();
     }
 
 
@@ -99,5 +100,23 @@ public class ExecutorType {
         executorService.shutdown();
 
 
+    }
+
+    public static void newSingleThreadExecutorDemo(){
+        ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
+        for (int i = 0; i < 20; i++) {
+            Runnable syncRunnable = new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(Thread.currentThread().getName());
+                }
+            };
+            singleThreadExecutor.execute(syncRunnable);
+        }
     }
 }

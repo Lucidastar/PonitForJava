@@ -1,8 +1,7 @@
-package com.lucida.point.lock;
+package com.lucida.point.thread;
 
 public class SleepAndWait {
     public static void main(String[] args) {
-        System.out.println("hello");
         System.out.println(Thread.currentThread().getName());
         Object obj = new Object();
         new Thread() {
@@ -35,8 +34,9 @@ public class SleepAndWait {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
+                    System.out.println("我来了");
                 }
-                System.out.println("我来了");
+
             }
         }.start();
 
