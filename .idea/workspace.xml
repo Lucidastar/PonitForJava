@@ -1,34 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5edc8fc-62aa-4f17-b712-6e0f3086c3f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PonitForJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b5edc8fc-62aa-4f17-b712-6e0f3086c3f1" name="Default Changelist" comment="更新了线程对应的文档">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/META-INF/PonitForJava.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/algorithm/AlgorithmTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/algorithm/QuickSortStudy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/annotation/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/annotation/PasswordUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/annotation/UseCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/design_patterns/Test$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/design_patterns/Test$Prams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/design_patterns/Test$ProCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/design_patterns/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/lock/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/InsertDataProject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/LockExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SleepAndWait$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SleepAndWait$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SleepAndWait$Thread1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SleepAndWait$Thread2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SleepAndWait.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/AlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/AlgorithmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1c9VxgnkKU8jCjwbCRhk2sbe3gj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="AlgorithmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucida.point.algorithm.AlgorithmTest" />
+      <module name="PonitForJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucida.point.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucida.point.algorithm.BubbleSort" />
+      <module name="PonitForJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucida.point.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucida.point.thread.ExecutorType" />
+      <module name="PonitForJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucida.point.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucida.point.algorithm.SelectionSort" />
+      <module name="PonitForJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucida.point.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronizedStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucida.point.thread.SynchronizedStudy" />
+      <module name="PonitForJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucida.point.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AlgorithmTest" />
+      <item itemvalue="Application.ExecutorType" />
+      <item itemvalue="Application.SynchronizedStudy" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.SelectionSort" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.AlgorithmTest" />
+        <item itemvalue="Application.SynchronizedStudy" />
+        <item itemvalue="Application.ExecutorType" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -53,17 +197,210 @@
       <option name="presentableId" value="Default" />
       <updated>1589941043287</updated>
       <workItem from="1589941045601" duration="2661000" />
-      <workItem from="1589961464834" duration="479000" />
+      <workItem from="1589961464834" duration="3152000" />
+      <workItem from="1590054156681" duration="1639000" />
+      <workItem from="1590134442227" duration="3522000" />
+      <workItem from="1590372704531" duration="15036000" />
+      <workItem from="1590462433815" duration="2642000" />
+      <workItem from="1591079347999" duration="10129000" />
+      <workItem from="1591146427797" duration="13770000" />
+      <workItem from="1591255084602" duration="3378000" />
+      <workItem from="1591321201635" duration="8090000" />
+      <workItem from="1591584769121" duration="1069000" />
+      <workItem from="1591601320914" duration="1928000" />
+      <workItem from="1591925344914" duration="4466000" />
+      <workItem from="1592183638461" duration="15299000" />
     </task>
+    <task id="LOCAL-00001" summary="添加了线程的学习synchronized关键字的学习，线程池的分类，Volatile关键字的学习">
+      <created>1590395988574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590395988574</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新了线程对应的文档">
+      <created>1590400118400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590400118400</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="添加了线程的学习synchronized关键字的学习，线程池的分类，Volatile关键字的学习" />
+    <MESSAGE value="更新了线程对应的文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了线程对应的文档" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1589961464820">
+    <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590390081191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589961464820" />
+    <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590390081191" />
+    <state x="1141" y="219" key="#xdebugger.evaluate" timestamp="1591585095794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1141" y="219" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1591585095794" />
+    <state x="385" y="50" key="CommitChangelistDialog2" timestamp="1590400134452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="385" y="50" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590400134452" />
+    <state width="447" height="582" key="DebuggerActiveHint" timestamp="1591601503782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="447" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1591601503782" />
+    <state width="1864" height="264" key="GridCell.Tab.0.bottom" timestamp="1592210525315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592210525315" />
+    <state width="1864" height="264" key="GridCell.Tab.0.center" timestamp="1592210525315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592210525315" />
+    <state width="1864" height="264" key="GridCell.Tab.0.left" timestamp="1592210525315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592210525315" />
+    <state width="1864" height="264" key="GridCell.Tab.0.right" timestamp="1592210525315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592210525315" />
+    <state width="1864" height="353" key="GridCell.Tab.1.bottom" timestamp="1591611113146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="353" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591611113146" />
+    <state width="1864" height="353" key="GridCell.Tab.1.center" timestamp="1591611113145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="353" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591611113145" />
+    <state width="1864" height="353" key="GridCell.Tab.1.left" timestamp="1591611113145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="353" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591611113145" />
+    <state width="1864" height="353" key="GridCell.Tab.1.right" timestamp="1591611113145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="353" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591611113145" />
+    <state x="613" y="187" width="687" height="655" key="StructurePopup" timestamp="1591323912260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="613" y="187" width="687" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1591323912260" />
+    <state x="452" y="193" key="Vcs.Push.Dialog.v2" timestamp="1590400156234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="193" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590400156234" />
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1592183638555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592183638555" />
+    <state x="627" y="247" key="extract.method.dialog" timestamp="1590392765260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="247" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590392765260" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1590134639101">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590134639101" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/AlgorithmTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java</url>
+          <line>499</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/Solution.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/Solution.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/Solution.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/Solution.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/AlgorithmTest.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/AlgorithmTest.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/AlgorithmTest.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/AlgorithmTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

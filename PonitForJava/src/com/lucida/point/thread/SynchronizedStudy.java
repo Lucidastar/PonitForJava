@@ -1,5 +1,10 @@
 package com.lucida.point.thread;
 
+import com.lucida.point.algorithm.Solution;
+import sun.misc.LRUCache;
+
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -13,7 +18,17 @@ public class SynchronizedStudy {
 //        testInsert_4();
 //        testInsert_3();
 //        testInsert_2();
-        testInsert_1();
+//        testInsert_1();
+//        fib(5);
+//        System.out.println(fib(5));
+        String source = "ADOBECOABPCPEBANC";
+        String target = "ABBC";
+//        minCharLength(source,target);
+        Solution solution = new Solution();
+//        solution.minWindow(source,target);
+        System.out.println(solution.minWindow(source,target));
+
+
     }
 
 
@@ -117,5 +132,47 @@ public class SynchronizedStudy {
         ExecutorService executorService = Executors.newCachedThreadPool();
         executorService.execute(threadFirst);
         executorService.execute(threadSecond);
+    }
+
+    static int fib(int N) {
+//        System.out.println(N);
+        if (N == 1 || N == 2)
+            return 1;
+        int temp1= fib(N - 1);
+        int temp2= fib(N - 2);
+//        System.out.println(N);
+        return temp1 + temp2;
+    }
+
+    /**
+     *
+     * @param source 给定的字符串  ADOBECOPEBANC
+     * @param target 需要查找的字符 ABC
+     * @return 返回包含target中最小的字符串
+     */
+    public static String minCharLength(String source,String target){
+
+        Map<Character,Integer> needs = new HashMap<>();//需要比较的字符
+        Map<Character,Integer> window = new HashMap<>();//源字符
+        for (int i = 0; i < target.length(); i++) {
+            needs.put(target.charAt(i),needs.getOrDefault(target.charAt(i),0)+1);
+        }
+        /*for (int i = 0; i < source.length(); i++) {
+            window.add(source.charAt(i));
+        }*/
+
+        int left = 0;
+        int right = 0;
+
+        /*while (right < source.length()) {
+            window.add(source.charAt(right));
+            right ++;
+            while (window.containsAll(needs)){
+
+            }
+        }*/
+
+
+        return null;
     }
 }
