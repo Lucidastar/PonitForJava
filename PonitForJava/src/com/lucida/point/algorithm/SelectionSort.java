@@ -19,10 +19,10 @@ public class SelectionSort {
             }
         }
     }
-
     public static void main(String[] args) {
         int arr[] = {4,67,23,45,21,23,1,3,23};
         SelectionSort.selectSort(arr);
-        System.out.println(Arrays.toString(arr));
+        Arrays.stream(arr).forEach(System.out::println);
+//        System.out.println(Arrays.toString(arr));
     }
 }

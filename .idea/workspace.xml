@@ -2,47 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5edc8fc-62aa-4f17-b712-6e0f3086c3f1" name="Default Changelist" comment="更新了线程对应的文档">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/META-INF/PonitForJava.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/algorithm/AlgorithmTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/algorithm/QuickSortStudy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/annotation/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/annotation/PasswordUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/annotation/UseCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/design_patterns/Test$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/design_patterns/Test$Prams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/design_patterns/Test$ProCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/design_patterns/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/lock/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/ExecutorType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/InsertDataProject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/LockExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SleepAndWait$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SleepAndWait$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SleepAndWait$Thread1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SleepAndWait$Thread2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SleepAndWait.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PonitForJava/com/lucida/point/thread/SynchronizedStudy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/AlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/AlgorithmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/thread/SynchronizedStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +54,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="AlgorithmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lucida.point.algorithm.AlgorithmTest" />
       <module name="PonitForJava" />
@@ -166,8 +129,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.AlgorithmTest" />
         <item itemvalue="Application.SynchronizedStudy" />
         <item itemvalue="Application.ExecutorType" />
@@ -209,7 +172,8 @@
       <workItem from="1591584769121" duration="1069000" />
       <workItem from="1591601320914" duration="1928000" />
       <workItem from="1591925344914" duration="4466000" />
-      <workItem from="1592183638461" duration="15299000" />
+      <workItem from="1592183638461" duration="15434000" />
+      <workItem from="1592272053350" duration="13540000" />
     </task>
     <task id="LOCAL-00001" summary="添加了线程的学习synchronized关键字的学习，线程池的分类，Volatile关键字的学习">
       <created>1590395988574</created>
@@ -254,22 +218,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="447" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1591601503782" />
-    <state width="1864" height="264" key="GridCell.Tab.0.bottom" timestamp="1592210525315">
+    <state width="1864" height="220" key="GridCell.Tab.0.bottom" timestamp="1592291419351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592210525315" />
-    <state width="1864" height="264" key="GridCell.Tab.0.center" timestamp="1592210525315">
+    <state width="1864" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592291419351" />
+    <state width="1864" height="220" key="GridCell.Tab.0.center" timestamp="1592291419351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592210525315" />
-    <state width="1864" height="264" key="GridCell.Tab.0.left" timestamp="1592210525315">
+    <state width="1864" height="220" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592291419351" />
+    <state width="1864" height="220" key="GridCell.Tab.0.left" timestamp="1592291419351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592210525315" />
-    <state width="1864" height="264" key="GridCell.Tab.0.right" timestamp="1592210525315">
+    <state width="1864" height="220" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592291419351" />
+    <state width="1864" height="220" key="GridCell.Tab.0.right" timestamp="1592291419351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592210525315" />
+    <state width="1864" height="220" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592291419351" />
     <state width="1864" height="353" key="GridCell.Tab.1.bottom" timestamp="1591611113146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -294,10 +258,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="193" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590400156234" />
-    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1592183638555">
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1592272061087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592183638555" />
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592272061087" />
     <state x="627" y="247" key="extract.method.dialog" timestamp="1590392765260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
