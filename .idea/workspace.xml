@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5edc8fc-62aa-4f17-b712-6e0f3086c3f1" name="Default Changelist" comment="更新了线程对应的文档">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/冒泡排序.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/冒泡排序.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/算法的思考.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/算法的思考.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -137,18 +134,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -174,6 +159,7 @@
       <workItem from="1591925344914" duration="4466000" />
       <workItem from="1592183638461" duration="15434000" />
       <workItem from="1592272053350" duration="13540000" />
+      <workItem from="1592317098235" duration="759000" />
     </task>
     <task id="LOCAL-00001" summary="添加了线程的学习synchronized关键字的学习，线程池的分类，Volatile关键字的学习">
       <created>1590395988574</created>
@@ -193,7 +179,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
