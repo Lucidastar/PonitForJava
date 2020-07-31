@@ -22,6 +22,8 @@ public class ArrayPractice {
         int[] temp = new int[]{1,4,4,0,0,5,6,0};
         moveZeroes(temp);
         System.out.println(Arrays.toString(temp));
+
+//        System.out.println(Arrays.toString(twoSum(new int[]{1,4,3,24,5},7)));
     }
 
     //给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
@@ -211,6 +213,22 @@ public class ArrayPractice {
                 nums[j++] = tmp;
             }
         }
+    }
+
+    public static int[] twoSum(int[] nums, int target) {
+        if (nums.length == 0){
+            return new int[0];
+        }
+        for (int i = 0; i < nums.length; i++) {
+            int first = nums[i];
+            for (int j = i+1; j < nums.length; j++) {
+                int second = nums[j];
+                if (first + second == target){
+                    return new int[]{i,j};
+                }
+            }
+        }
+        return new int[0];
     }
 
 }

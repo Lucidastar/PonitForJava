@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5edc8fc-62aa-4f17-b712-6e0f3086c3f1" name="Default Changelist" comment="更新了线程对应的文档">
+      <change afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/NodePractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/冒泡排序.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/冒泡排序.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/选择排序.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/选择排序.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/ArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/ArrayPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/CharPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/CharPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +56,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="AlgorithmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucida.point.algorithm.AlgorithmTest" />
+  <component name="RunManager" selected="Application.ArrayPractice">
+    <configuration name="ArrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucida.point.algorithm.practice.ArrayPractice" />
       <module name="PonitForJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lucida.point.algorithm.*" />
+          <option name="PATTERN" value="com.lucida.point.algorithm.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucida.point.thread.ExecutorType" />
+    <configuration name="CharPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucida.point.algorithm.practice.CharPractice" />
       <module name="PonitForJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lucida.point.thread.*" />
+          <option name="PATTERN" value="com.lucida.point.algorithm.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lucida.point.algorithm.practice.node.NodePractice" />
+      <module name="PonitForJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucida.point.algorithm.practice.node.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,33 +122,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lucida.point.thread.SynchronizedStudy" />
-      <module name="PonitForJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lucida.point.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.AlgorithmTest" />
-      <item itemvalue="Application.ExecutorType" />
-      <item itemvalue="Application.SynchronizedStudy" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.ArrayPractice" />
+      <item itemvalue="Application.CharPractice" />
+      <item itemvalue="Application.NodePractice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayPractice" />
+        <item itemvalue="Application.NodePractice" />
+        <item itemvalue="Application.CharPractice" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.AlgorithmTest" />
-        <item itemvalue="Application.SynchronizedStudy" />
-        <item itemvalue="Application.ExecutorType" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,17 @@
       <workItem from="1591925344914" duration="4466000" />
       <workItem from="1592183638461" duration="15434000" />
       <workItem from="1592272053350" duration="13647000" />
-      <workItem from="1592356364163" duration="15187000" />
+      <workItem from="1592356364163" duration="17770000" />
+      <workItem from="1592448358118" duration="6939000" />
+      <workItem from="1593311426951" duration="12751000" />
+      <workItem from="1593397330991" duration="16948000" />
+      <workItem from="1593488598451" duration="7309000" />
+      <workItem from="1593581754482" duration="4360000" />
+      <workItem from="1593673698356" duration="783000" />
+      <workItem from="1594690032569" duration="11337000" />
+      <workItem from="1595294863453" duration="8129000" />
+      <workItem from="1595992154053" duration="3348000" />
+      <workItem from="1596185494016" duration="3964000" />
     </task>
     <task id="LOCAL-00001" summary="添加了线程的学习synchronized关键字的学习，线程池的分类，Volatile关键字的学习">
       <created>1590395988574</created>
@@ -208,78 +219,90 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590390081191" />
-    <state x="1141" y="219" key="#xdebugger.evaluate" timestamp="1591585095794">
+    <state x="721" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1594691041287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1141" y="219" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1591585095794" />
+    <state x="721" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594691041287" />
+    <state x="657" y="34" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594693331990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="34" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594693331990" />
+    <state x="1446" y="240" key="#xdebugger.evaluate" timestamp="1593414437151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1446" y="240" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1593414437151" />
     <state x="385" y="50" key="CommitChangelistDialog2" timestamp="1590400134452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="385" y="50" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590400134452" />
-    <state width="447" height="582" key="DebuggerActiveHint" timestamp="1591601503782">
+    <state width="463" height="582" key="DebuggerActiveHint" timestamp="1596187576954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="447" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1591601503782" />
-    <state width="1864" height="164" key="GridCell.Tab.0.bottom" timestamp="1592378117216">
+    <state width="463" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1596187576954" />
+    <state width="1864" height="264" key="GridCell.Tab.0.bottom" timestamp="1596191335275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592378117216" />
-    <state width="1864" height="164" key="GridCell.Tab.0.center" timestamp="1592378117216">
+    <state width="1864" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596191335275" />
+    <state width="1864" height="264" key="GridCell.Tab.0.center" timestamp="1596191335275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="164" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592378117216" />
-    <state width="1864" height="164" key="GridCell.Tab.0.left" timestamp="1592378117216">
+    <state width="1864" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596191335275" />
+    <state width="1864" height="264" key="GridCell.Tab.0.left" timestamp="1596191335274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="164" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592378117216" />
-    <state width="1864" height="164" key="GridCell.Tab.0.right" timestamp="1592378117216">
+    <state width="1864" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596191335274" />
+    <state width="1864" height="264" key="GridCell.Tab.0.right" timestamp="1596191335275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="164" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592378117216" />
-    <state width="1864" height="353" key="GridCell.Tab.1.bottom" timestamp="1591611113146">
+    <state width="1864" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596191335275" />
+    <state width="1864" height="264" key="GridCell.Tab.1.bottom" timestamp="1596191335276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="353" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591611113146" />
-    <state width="1864" height="353" key="GridCell.Tab.1.center" timestamp="1591611113145">
+    <state width="1864" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596191335276" />
+    <state width="1864" height="264" key="GridCell.Tab.1.center" timestamp="1596191335275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="353" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591611113145" />
-    <state width="1864" height="353" key="GridCell.Tab.1.left" timestamp="1591611113145">
+    <state width="1864" height="264" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596191335275" />
+    <state width="1864" height="264" key="GridCell.Tab.1.left" timestamp="1596191335275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="353" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591611113145" />
-    <state width="1864" height="353" key="GridCell.Tab.1.right" timestamp="1591611113145">
+    <state width="1864" height="264" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596191335275" />
+    <state width="1864" height="264" key="GridCell.Tab.1.right" timestamp="1596191335276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1864" height="353" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591611113145" />
+    <state width="1864" height="264" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596191335276" />
     <state x="601" y="171" key="MultipleFileMergeDialog" timestamp="1592359429466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="171" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592359429466" />
-    <state x="613" y="187" width="687" height="655" key="StructurePopup" timestamp="1592374453835">
+    <state x="613" y="187" width="687" height="655" key="StructurePopup" timestamp="1596186560868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="613" y="187" width="687" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1592374453835" />
+    <state x="613" y="187" width="687" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1596186560868" />
     <state x="452" y="193" key="Vcs.Push.Dialog.v2" timestamp="1590400156234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="193" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590400156234" />
-    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1592357521502">
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1596185520600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592357521502" />
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596185520600" />
     <state x="722" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592359351684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="722" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592359351684" />
-    <state x="627" y="247" key="extract.method.dialog" timestamp="1590392765260">
+    <state x="627" y="247" key="extract.method.dialog" timestamp="1593400020003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="247" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590392765260" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1590134639101">
+    <state x="627" y="247" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593400020003" />
+    <state x="642" y="88" key="refactoring.ChangeSignatureDialog" timestamp="1592450759893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590134639101" />
+    <state x="642" y="88" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592450759893" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1595299712272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595299712272" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -373,6 +396,61 @@
           <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/AlgorithmTest.java</url>
           <line>33</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/ArrayPractice.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/ArrayPractice.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/ArrayPractice.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/ArrayPractice.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/CharPractice.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/CharPractice.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/CharPractice.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/NodePractice.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/NodePractice.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/NodePractice.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/ArrayPractice.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
