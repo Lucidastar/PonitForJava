@@ -1,5 +1,8 @@
 package com.lucida.point.algorithm.practice.node;
 
+import com.sun.org.apache.xpath.internal.operations.String;
+
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class NodePractice {
@@ -96,4 +99,16 @@ public class NodePractice {
         }
     }
 
+    //反转链表
+    public ListNode reverseList(ListNode head) {
+        ListNode cur = null;
+        ListNode pre = head;
+        while (pre != null){
+            ListNode t = pre.next;
+            pre.next = cur;
+            cur = pre;
+            pre = t;
+        }
+        return  cur;
+    }
 }

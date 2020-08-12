@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5edc8fc-62aa-4f17-b712-6e0f3086c3f1" name="Default Changelist" comment="更新了线程对应的文档">
-      <change afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/NodePractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/ArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/ArrayPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/CharPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/CharPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/NodePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/NodePractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +184,10 @@
       <workItem from="1595294863453" duration="8129000" />
       <workItem from="1595992154053" duration="3348000" />
       <workItem from="1596185494016" duration="3964000" />
+      <workItem from="1596608089998" duration="4326000" />
+      <workItem from="1597046036005" duration="3670000" />
+      <workItem from="1597111900299" duration="2547000" />
+      <workItem from="1597225071105" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="添加了线程的学习synchronized关键字的学习，线程池的分类，Volatile关键字的学习">
       <created>1590395988574</created>
@@ -283,10 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="193" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590400156234" />
-    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1596185520600">
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1597225142768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596185520600" />
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597225142768" />
     <state x="722" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592359351684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -434,17 +435,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/NodePractice.java</url>
-          <line>45</line>
+          <line>48</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/NodePractice.java</url>
-          <line>69</line>
+          <line>72</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/PonitForJava/src/com/lucida/point/algorithm/practice/node/NodePractice.java</url>
-          <line>70</line>
+          <line>73</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
