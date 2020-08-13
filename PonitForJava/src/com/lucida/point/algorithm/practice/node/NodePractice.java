@@ -1,9 +1,6 @@
 package com.lucida.point.algorithm.practice.node;
 
-import com.sun.org.apache.xpath.internal.operations.String;
 
-import java.util.Arrays;
-import java.util.LinkedList;
 
 public class NodePractice {
     /**
@@ -45,54 +42,55 @@ public class NodePractice {
         return node.next;
     }
 
+
     public static void main(String[] args) {
         ListNode node = new ListNode(0);
         ListNode node1 = new ListNode(0);
         ListNode head = node;
         ListNode head1 = node1;
-        for (int i = 1; i < 10; i++) {
-            while (head.next != null){
-                head = head.next;
-            }
-            while (head1.next != null){
-                head1 = head1.next;
-            }
+        for (int i = 1; i < 3; i++) {
+
             head.next = new ListNode(i);
             head1.next = new ListNode(i);
+            head = head.next;
+            head1 = head1.next;
         }
-//        ListNode newNode = mergeTwoLists(node1,node);
-//        ergodicList(node1);
-        for (int i=0;i<0;i++) {
-            System.out.println("hello");
-        }
+        ergodicList(node1);
+        System.out.println("==============================");
+        ergodicList(node);
+        System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+        ListNode newNode = mergeTwoLists(node1,node);
+
+        ergodicList(newNode);
+//        System.out.println("==============================");
+//        ergodicList(reverseList(node));
+
+
     }
+
+    //合并两个有序链表
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode listNode = new ListNode(Math.min(l1.val,l2.val));
-        ListNode l1Node = l1;
-        ListNode l2Node = l2;
-        while (l1Node.next != null){
-            int l1Value = l1Node.val;
-            l1Node = l1.next;
-            while (l2Node.next != null){
-                int l2Value = l2Node.val;
-                l2Node = l2Node.next;
-                if (l2Value > l1Value){
-
-                    break;
-                }else {
-                    listNode = listNode.next = new ListNode(l1Value);
-                }
-
+        //原先的思路就是遍历两个链表，还在想哪个链表长度长，然后让长的在里层循环
+        ListNode listNode = new ListNode(0), cur = listNode;
+        while (l1 != null && l2 != null){
+            if (l1.val > l2.val){
+                cur.next = l2;
+                l2 = l2.next;
+            }else {
+                cur.next = l1;
+                l1 = l1.next;
             }
+            cur = cur.next;
         }
-
-
-
-        return  listNode;
+        //这时候跳出循环 不管哪个链表为空了，都会跳出，然后把不为空的链表直接放到后边就可以了
+        cur.next = l1 != null ? l1 : l2;
+        return  listNode.next;
     }
 
+    //遍历链表
     private static void ergodicList(ListNode listNode){
         ListNode node = listNode;
+        System.out.println(node.val);
         while (node.next != null){
             node = node.next;
             System.out.println(node.val);
@@ -100,7 +98,7 @@ public class NodePractice {
     }
 
     //反转链表
-    public ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
         ListNode cur = null;
         ListNode pre = head;
         while (pre != null){
@@ -110,5 +108,16 @@ public class NodePractice {
             pre = t;
         }
         return  cur;
+    }
+
+    public boolean isPalindrome(ListNode head) {
+        if (head == null){
+            return false;
+        }
+        int value = head.val;
+        while (head.next != null){
+            head = head.next;
+        }
+        return value == head.val;
     }
 }
