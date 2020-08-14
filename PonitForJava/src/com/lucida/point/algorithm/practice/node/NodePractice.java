@@ -1,6 +1,8 @@
 package com.lucida.point.algorithm.practice.node;
 
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class NodePractice {
     /**
@@ -55,13 +57,16 @@ public class NodePractice {
             head = head.next;
             head1 = head1.next;
         }
-        ergodicList(node1);
-        System.out.println("==============================");
-        ergodicList(node);
-        System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^");
-        ListNode newNode = mergeTwoLists(node1,node);
+//        ergodicList(node1);
+//        System.out.println("==============================");
+//        ergodicList(node);
+//        System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+//        ListNode newNode = mergeTwoLists(node1,node);
+        ListNode cycleListNode = createCycleListNode(200);
 
-        ergodicList(newNode);
+        System.out.println(hasCycle(cycleListNode));
+//        ergodicList(createCycleListNode(5));
+//        ergodicList(newNode);
 //        System.out.println("==============================");
 //        ergodicList(reverseList(node));
 
@@ -110,14 +115,67 @@ public class NodePractice {
         return  cur;
     }
 
+    //请判断一个链表是否为回文链表。
+    //先看的的时候，回文链表没有看懂，认为第一个值和最后一个值相等就是回文链表呢？
+    //回文链表就是：正着看和倒着看都是一样的
+    //比如：  1、 3 、 3 、1 、 1 、 3、 3 、 1
+    //正着看： 13311331
+    //反着看：13311331
     public boolean isPalindrome(ListNode head) {
-        if (head == null){
-            return false;
+        List<Integer> list = new ArrayList<>();
+        ListNode listNode = head;
+
+        while (listNode != null){
+            list.add(listNode.val);
+            listNode = listNode.next;
         }
-        int value = head.val;
-        while (head.next != null){
-            head = head.next;
+        int start = 0;
+        int end = list.size() - 1;
+        while (start <  end){
+            if (!list.get(start).equals(list.get(end))){
+                return false;
+            }
+            start++;
+            end -- ;
         }
-        return value == head.val;
+        return true;
+    }
+
+    public static boolean hasCycle(ListNode head) {
+        ListNode firstNode = head;
+        ListNode second = head.next;
+        int seconde = 0;
+        while (firstNode != second ){
+            seconde ++;
+            if (second == null || second.next == null){
+                return false;
+            }
+            firstNode = firstNode.next;
+            second = second.next.next;
+        }
+        System.out.println(seconde);
+        return true;
+    }
+
+    //创建一个有环的链表
+    private static ListNode createCycleListNode(int count){
+        ListNode first = null;
+        ListNode currentNode = null;
+        for (int i = 0; i <= count; i++) {
+            if (i == 0){
+                first = new ListNode(i);
+                currentNode = first;
+                currentNode.next = first;
+                System.out.println("first"+first.hashCode());
+                System.out.println("current"+currentNode.hashCode());
+                System.out.println("current.next"+currentNode.next.hashCode());
+            }else {
+                ListNode newNode = new ListNode(i);
+                currentNode.next = newNode;
+                newNode.next = first;
+                currentNode = newNode;
+            }
+        }
+        return first;
     }
 }
