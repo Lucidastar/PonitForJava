@@ -83,16 +83,13 @@ public class ExecutorType {
     public static void scheduledThreadPoolDemo(){
         ExecutorService executorService = Executors.newScheduledThreadPool(8);
         for (int i = 0; i < 20; i++) {
-            Runnable syncRunnable = new Runnable() {
-                @Override
-                public void run() {
-                    try {
-                        Thread.sleep(5000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    System.out.println(Thread.currentThread().getName());
+            Runnable syncRunnable = () -> {
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+                System.out.println(Thread.currentThread().getName());
             };
             executorService.execute(syncRunnable);
         }
@@ -105,16 +102,13 @@ public class ExecutorType {
     public static void newSingleThreadExecutorDemo(){
         ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
         for (int i = 0; i < 20; i++) {
-            Runnable syncRunnable = new Runnable() {
-                @Override
-                public void run() {
-                    try {
-                        Thread.sleep(2000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    System.out.println(Thread.currentThread().getName());
+            Runnable syncRunnable = () -> {
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+                System.out.println(Thread.currentThread().getName());
             };
             singleThreadExecutor.execute(syncRunnable);
         }

@@ -4,6 +4,7 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,6 +15,14 @@ public class Main {
         Integer max = Collections.max(useCases);
         System.out.println(max);
         System.out.println(3|9);
+        //不同的Annotation
+        ;
+        System.out.println(System.getenv("JAVA_HOME"));
+        System.out.println("==========================");
+        Map<String, String> getenv = System.getenv();
+        for (Map.Entry<String,String> entry : getenv.entrySet()){
+            System.out.println(entry.getKey()+"====="+entry.getValue());
+        }
     }
 
     public static void trackUseCases(List<Integer> useCases, Class<?> cl) {
