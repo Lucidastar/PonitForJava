@@ -20,8 +20,12 @@ public class ArrayPractice {
 //        System.out.println(Arrays.toString(plusOne(new int[]{0})));
 
         int[] temp = new int[]{1,4,4,0,0,5,6,0};
-        moveZeroes(temp);
+//        moveZeroes(temp);
+//        System.out.println(Arrays.toString(temp));
+
+        rotate(temp,3);
         System.out.println(Arrays.toString(temp));
+
 
 //        System.out.println(Arrays.toString(twoSum(new int[]{1,4,3,24,5},7)));
     }
@@ -229,6 +233,18 @@ public class ArrayPractice {
             }
         }
         return new int[0];
+    }
+
+    public static void rotate(int[] nums, int k) {
+        int temp,changeTemp;
+        for (int i = 0; i < k; i++) {
+            changeTemp = nums[nums.length - 1];
+            for (int j = 0; j < nums.length; j++) {
+                temp = nums[j];
+                nums[j] = changeTemp;
+                changeTemp = temp;
+            }
+        }
     }
 
 }

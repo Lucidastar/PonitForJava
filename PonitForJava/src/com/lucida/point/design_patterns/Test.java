@@ -58,7 +58,7 @@ public class Test {
 
             System.out.println(o);*/
 
-        float a = 1.0f - 0.9f;
+        /*float a = 1.0f - 0.9f;
         double b = 0.9f - 0.8f;
         System.out.println(a);
         System.out.println(b);
@@ -94,10 +94,10 @@ public class Test {
 
         int[] array=new int[]{17,8,23,46,12,7,85,74};
         QuickSort(array, 0, array.length-1);
-        /*for(int i=0;i<array.length;i++)
+        *//*for(int i=0;i<array.length;i++)
         {
             System.out.println((i+1)+"th:"+array[i]);
-        }*/
+        }*//*
 
         LinkedHashMap<String,String> linkedHashMap = new LinkedHashMap<>(0, 0.75f, true);
         linkedHashMap.put("1","1");
@@ -133,16 +133,53 @@ public class Test {
         for (int i = 0; i < 100; i++) {
 
             map.put(String.valueOf(i),"张三");
-        }
+        }*/
 
 //        System.out.println(map.get("50"));
 
+//        System.out.println(countPrimes(10));
+//        System.out.println(Math.sqrt(4));
+        System.out.println(isPowerOfThree(6));
+    }
 
+    public static int countPrimes(int n) {
+        if(n < 2){
+            return 0;
+        }
+        int num = 0;
+        for(int i = 2 ; i <= n ; i++){
+            if(searchZhishu(i)){
+                num++;
+            }
+        }
+        return num;
+    }
+
+
+    public static boolean searchZhishu(int num) {
+        for(int i=2; i<num; i++) {
+            if(num%i == 0) {
+                return false;
+            }
+        }
+        return true;
+
+    }
+
+    public static boolean isPowerOfThree(int n) {
+        if (n < 1) {
+            return false;
+        }
+        while ( n % 3 == 0){
+            n /= 3;
+        }
+        return n ==1;
     }
 
 
 
-    private static String format(String[] replaceKey,String content){
+
+        private static String format(String[] replaceKey,String content){
         StringBuilder stringBuilder = new StringBuilder();
         Pattern p=Pattern.compile(replaceKey[0]+"(\\w+)"+replaceKey[1]);
         Matcher m=p.matcher(content);
