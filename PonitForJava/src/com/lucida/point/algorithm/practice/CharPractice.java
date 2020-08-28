@@ -1,6 +1,6 @@
 package com.lucida.point.algorithm.practice;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class CharPractice {
     public static void main(String[] args) {
@@ -8,13 +8,15 @@ public class CharPractice {
         reverseString(temp);
         System.out.println(Arrays.toString(temp));
 
-        System.out.println(reverse(-2147483648));
+//        System.out.println(reverse(-2147483648));
 //        System.out.println(Integer.MAX_VALUE);
 //        System.out.println(Integer.MIN_VALUE);
 //        System.out.println(test(-2147483648));
 //
 //        System.out.println(Math.abs(-2147483647));
-        System.out.println(strStr("hello","ll"));
+//        System.out.println(strStr("hello","ll"));
+        ;
+        System.out.println(firstUniqChar("loveleetcode"));
     }
 
     public static void reverseString(char[] s) {
@@ -85,4 +87,21 @@ public class CharPractice {
     public static int strStr(String haystack, String needle) {
         return haystack.indexOf(needle);
     }
+
+    public static int firstUniqChar(String s) {
+        if (s != null && s.length() > 0){
+            int length = s.length();
+            Map<Character,Integer> map = new HashMap<>();
+            for (int i = 0; i < length; i++) {
+                map.put(s.charAt(i),map.getOrDefault(s.charAt(i),0)+1);
+            }
+            for (int i = 0; i < length; i++) {
+                if (map.get(s.charAt(i)) == 1)
+                    return i;
+            }
+        }
+        return -1;
+    }
+
+
 }

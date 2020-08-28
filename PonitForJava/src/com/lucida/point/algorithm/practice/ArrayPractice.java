@@ -13,7 +13,7 @@ public class ArrayPractice {
 //        System.out.println(maxProfit(a));
 //        System.out.println("Is contain="+containsDuplicate(a));
 //        System.out.println("singleNumber="+singleNumber(a));
-        System.out.println(2^3);
+//        System.out.println(2^3);
         int[] nums1 = new int[]{1,2,2,1};
         int[] nums2 = new int[]{4,4,6,2};
 //        System.out.println(Arrays.toString(intersect(nums1,nums2)));
@@ -23,8 +23,12 @@ public class ArrayPractice {
 //        moveZeroes(temp);
 //        System.out.println(Arrays.toString(temp));
 
-        rotate(temp,3);
-        System.out.println(Arrays.toString(temp));
+//        rotate(temp,3);
+//        System.out.println(Arrays.toString(temp));
+
+        System.out.println(prefixTwoString("aabbdgsfsfscccccc","aabbsdfasdfcccccc"));
+
+        System.out.println(longestCommonPrefix("aabbdgsfsfscccccc","aabbsdfasdfcccccc"));
 
 
 //        System.out.println(Arrays.toString(twoSum(new int[]{1,4,3,24,5},7)));
@@ -247,4 +251,77 @@ public class ArrayPractice {
         }
     }
 
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int[] tempNum = new int[m];
+        System.arraycopy(nums1,0,tempNum,0,m);
+
+        int position1 = 0;
+        int position2 = 0;
+
+        int position = 0;
+
+        while (position1 < m && position2 < n){
+            nums1[position++] = (tempNum[position1] < nums2[position2])?tempNum[position1++] : nums2[position2++];
+        }
+        if (position1 < m){
+            System.arraycopy(tempNum,position1,nums1,position1+position2,m+n-position1-position2);
+        }
+
+        if (position2 < n){
+            System.arraycopy(nums2,position2,nums1,position1+position2,m+n-position1-position2);
+        }
+    }
+
+    /**
+     * 最长公共前缀
+     * @param strs
+     * @return
+     */
+    public String longestCommonPrefix(String[] strs) {
+        if (strs == null || strs.length == 0) {
+            return "";
+        }
+        String prefix = strs[0];
+        for (int i = 1; i < strs.length; i++) {
+            prefix = prefixTwoString(prefix, strs[i]);
+            if (prefix.length() == 0) {
+                break;
+            }
+        }
+        return prefix;
+    }
+
+    public static String prefixTwoString(String str1,String str2){
+        if (str1 == null || str2 == null ){
+            return "";
+        }
+        if (str1.length() == 0 || str2.length() == 0){
+            return "";
+        }
+        int str1length = str1.length();
+        int str2length = str2.length();
+        int position = 0;
+        boolean isLx = true;
+        StringBuilder stringBuilder = new StringBuilder();
+        while (position < str1length && position <  str2length && isLx){
+            char c1 = str1.charAt(position);
+            char c2 = str2.charAt(position);
+            if (c1 == c2){
+                stringBuilder.append(c1);
+            }else {
+                isLx = false;
+            }
+            position ++;
+
+        }
+        return stringBuilder.toString();
+    }
+    public static String longestCommonPrefix(String str1, String str2) {
+        int length = Math.min(str1.length(), str2.length());
+        int index = 0;
+        while (index < length && str1.charAt(index) == str2.charAt(index)) {
+            index++;
+        }
+        return str1.substring(0, index);
+    }
 }

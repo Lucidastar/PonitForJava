@@ -139,7 +139,9 @@ public class Test {
 
 //        System.out.println(countPrimes(10));
 //        System.out.println(Math.sqrt(4));
-        System.out.println(isPowerOfThree(6));
+//        System.out.println(isPowerOfThree(6));
+        System.out.println(fib(6));
+
     }
 
     public static int countPrimes(int n) {
@@ -318,4 +320,8 @@ public class Test {
         return dummyHead.next;
     }
 
+    static int fib(int N) {
+        if (N == 1 || N == 2) return 1;
+        return fib(N - 1) + fib(N - 2);
+    }
 }
